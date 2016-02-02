@@ -14,5 +14,7 @@ namespace SFCrimeDBTool.Utilities
         public ITrainingCrimeService TrainingCrimeService { get; set; }
 
         public ITestCrimeService TestCrimeService { get; set; }
+
+        public int Option { get; set; }
     }
 }

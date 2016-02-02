@@ -15,5 +15,7 @@ namespace SFCrimeDBTool.Utilities
         void WatchThread(Thread thread);
 
         void KillAllWatchedThreads();
+
+        void JoinAll();
     }
 }

@@ -12,7 +12,7 @@ namespace SFCrimeDatabaseService
     public class Instantiator
     {
 
-        public ITestCrimeService GettNewTestCrimeService(string connectionString, IContext ctx)
+        public ITestCrimeService GetNewTestCrimeService(string connectionString, IContext ctx)
         {
             return new TestCrimeService(GetTestCrimeRepository(connectionString, ctx));
         }
