@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFCrimeMiner", "SFCrimeMiner\SFCrimeMiner.csproj", "{9B0988B0-7B53-4845-AE48-E510FCEB4016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFCrimeDBTool", "SFCrimeDBTool\SFCrimeDBTool.csproj", "{4A342F47-9E08-44BF-A056-8C52A45D2E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFCrimeDatabaseService", "SFCrimeDatabaseService\SFCrimeDatabaseService.csproj", "{2960B366-4CC6-4CDF-92C1-35C1853DFD00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B0988B0-7B53-4845-AE48-E510FCEB4016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0988B0-7B53-4845-AE48-E510FCEB4016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0988B0-7B53-4845-AE48-E510FCEB4016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0988B0-7B53-4845-AE48-E510FCEB4016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A342F47-9E08-44BF-A056-8C52A45D2E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A342F47-9E08-44BF-A056-8C52A45D2E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A342F47-9E08-44BF-A056-8C52A45D2E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A342F47-9E08-44BF-A056-8C52A45D2E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2960B366-4CC6-4CDF-92C1-35C1853DFD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2960B366-4CC6-4CDF-92C1-35C1853DFD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2960B366-4CC6-4CDF-92C1-35C1853DFD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2960B366-4CC6-4CDF-92C1-35C1853DFD00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
