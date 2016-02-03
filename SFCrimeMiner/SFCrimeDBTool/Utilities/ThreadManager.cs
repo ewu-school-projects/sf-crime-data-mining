@@ -24,6 +24,7 @@ namespace SFCrimeDBTool.Utilities
 
         public Thread CreateNewThread(ThreadBundle bundle, object o, MethodInfo method)
         {
+            // Invoke passed method on separate thread
             return new Thread(() => method.Invoke(o, BindingFlags.InvokeMethod, null, new []{bundle}, CultureInfo.DefaultThreadCurrentCulture));
         }
 
@@ -41,6 +42,7 @@ namespace SFCrimeDBTool.Utilities
 
         public void KillAllWatchedThreads()
         {
+            // Thread does not terminate so it must be aborted
             _monitor.Abort();
 
             foreach (var thread in _threadPool.Where(x => !x.IsAlive))
@@ -53,6 +55,7 @@ namespace SFCrimeDBTool.Utilities
 
         public void JoinAll()
         {
+            // Thread does not terminate so it must be aborted
             _monitor.Abort();
 
             while (_threadPool.Count > 0)
